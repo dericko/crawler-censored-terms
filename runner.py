@@ -50,7 +50,6 @@ morphs = {}
 i = 0
 for term in terms:
   i = i + 1
-  if i < 242: continue
   print i
   morph_list = [] 
   for morph_data in terms.get(term).get("morphs"):
